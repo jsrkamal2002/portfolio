@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "(time) commit"
+git config user.email "veerammarish89@gmail.com"
+git remote add orgin https://github.com/jsrkamal2002/portfolio.git
+git push -u origin main
