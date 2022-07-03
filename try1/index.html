@@ -1,59 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Document</title>
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
 
-        <!-- CSS file -->
+        <link rel="preconnect" href="https://fonts.gstatic.com/" >
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght
+        @0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/skins/color-1.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 
     </head>
 
     <body>
-
-        <div class="main-container">
-            <div class="aside">
-                <div class="logo">
-                    <a href="#"><span>A</span>tlas</a>
-                </div>
-                <div class="nav-toggler">
-                    <span></span>
-                </div>
-                <ul class="nav">
-                    <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-                    <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                    <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-                    <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                    <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+        <!-- hero section start -->
+        <div class="hero">
+            <nav>
+                <h2 class="logo">Portfo<span>lio</span></h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
+                <a href="#" class="btn">Subscribe</a>
+            </nav>
+
+            <div class="content">
+                <h4>Hello, My name is</h4>
+                <h1>Raj <span>Kamal</span></h1>
+                <h3>I'm a Script Kidie</h3>
+                <div class="newslatter">
+                    <form>
+                        <input type="email" name="email" id="mail" placeholder="Enter your email">
+                        <input type="submit" name="submit" value="Let Start!">
+                    </form>
+                </div>
             </div>
-            <div class="main-content">
-                <section class="home section">
-                    <div class="contaner">
-                        <div class="row">
-                            <div class="home-info">
-                                <h3 class="hello">Hello, My name is <span class="name">Raj Kamal</span></h3>
-                                <h3 class="myprofession">I' m a <span class="typing">Script Kiddie</span></h3>
-                                <p>Just type a paragrap about you </p>
-                                <a href="#contact" class="btn-hire-me">Hire Me</a>
-                            </div>
-                            <div class="home-img">
-                                <img src="./images/hero.jpg" alt="">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
+
         </div>
 
-        <script src="js/script.js"></script>
+        <!-- About Section start -->
+        
 
     </body>
 
